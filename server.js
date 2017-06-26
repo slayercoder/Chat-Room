@@ -5,7 +5,7 @@ var server = http.createServer(app);
 var io = require('socket.io').listen(server);
 var port = process.env.PORT || 3000;
 server.listen(port, function(){
-    console.log("Server on...");
+    console.log("Server running on port 3000");
 });
 users = [];
 connections = [];
